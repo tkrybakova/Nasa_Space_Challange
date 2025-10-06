@@ -1,6 +1,10 @@
 from sqlalchemy import Column, Integer, String, DateTime, Float, JSON, Text, ForeignKey
 from sqlalchemy.sql import func
+<<<<<<< HEAD
 from exoplanet_api.database import Base
+=======
+from database import Base
+>>>>>>> 6d826bd89a7a829950e92fd0513ba4ef97d9d2f8
 
 
 class User(Base):

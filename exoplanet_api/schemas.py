@@ -81,6 +81,7 @@ class MLPredictionRequest(BaseModel):
 
 
 class MLPredictionResponse(BaseModel):
+<<<<<<< HEAD
     predictions: list
     model_version: str
 
@@ -89,6 +90,11 @@ class MLPredictionResponse(BaseModel):
     }
 
 
+=======
+    predictions: List[Dict[str, Any]]
+    model_version: str
+
+>>>>>>> 6d826bd89a7a829950e92fd0513ba4ef97d9d2f8
 
 class AnalysisRequest(BaseModel):
     file_id: Optional[int] = None

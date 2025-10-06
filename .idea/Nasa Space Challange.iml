@@ -7,6 +7,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+<<<<<<< HEAD
   <component name="PyNamespacePackagesService">
     <option name="namespacePackageFolders">
       <list>
@@ -14,4 +15,6 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 6d826bd89a7a829950e92fd0513ba4ef97d9d2f8
 </module>

@@ -1,7 +1,11 @@
 // src/components/AnalyzeButton.jsx
 import React, { useState } from "react";
 import { Button, CircularProgress } from "@mui/material";
+<<<<<<< HEAD
 import { analyzeData, getResults } from "../../api/api";
+=======
+import { analyzeData, getResults } from "../api";
+>>>>>>> 6d826bd89a7a829950e92fd0513ba4ef97d9d2f8
 
 const AnalyzeButton = ({ fileId, onComplete }) => {
   const [loading, setLoading] = useState(false);
